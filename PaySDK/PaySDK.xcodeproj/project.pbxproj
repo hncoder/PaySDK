@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5585A151E46B3750070C6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A141E46B3750070C6F1 /* main.m */; };
+		D5585A181E46B3750070C6F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A171E46B3750070C6F1 /* AppDelegate.m */; };
+		D5585A1B1E46B3750070C6F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A1A1E46B3750070C6F1 /* ViewController.m */; };
+		D5585A1E1E46B3750070C6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5585A1C1E46B3750070C6F1 /* Main.storyboard */; };
+		D5585A201E46B3750070C6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5585A1F1E46B3750070C6F1 /* Assets.xcassets */; };
+		D5585A231E46B3750070C6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5585A211E46B3750070C6F1 /* LaunchScreen.storyboard */; };
+		D5585A2E1E46B3750070C6F1 /* PaySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A2D1E46B3750070C6F1 /* PaySDKTests.m */; };
+		D5585A391E46B3750070C6F1 /* PaySDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A381E46B3750070C6F1 /* PaySDKUITests.m */; };
+		D5585A491E46B5590070C6F1 /* PaySDKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A481E46B5590070C6F1 /* PaySDKObject.m */; };
+		D5585A4C1E46B5740070C6F1 /* PaySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A4B1E46B5740070C6F1 /* PaySDK.m */; };
+		D5585A4F1E46B58F0070C6F1 /* PaySDKBasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A4E1E46B58F0070C6F1 /* PaySDKBasePlatform.m */; };
+		D5585A521E46B5AC0070C6F1 /* PaySDKWXPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A511E46B5AC0070C6F1 /* PaySDKWXPlatform.m */; };
+		D5585A551E46B5BC0070C6F1 /* PaySDKAliPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D5585A541E46B5BC0070C6F1 /* PaySDKAliPlatform.m */; };
+		D5585ADE1E475A2A0070C6F1 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5585AD91E475A2A0070C6F1 /* libWeChatSDK.a */; };
+		D5585ADF1E475A2A0070C6F1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5585ADA1E475A2A0070C6F1 /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5585A2A1E46B3750070C6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5585A081E46B3750070C6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5585A0F1E46B3750070C6F1;
+			remoteInfo = PaySDK;
+		};
+		D5585A351E46B3750070C6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5585A081E46B3750070C6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5585A0F1E46B3750070C6F1;
+			remoteInfo = PaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5585A101E46B3750070C6F1 /* PaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5585A141E46B3750070C6F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5585A161E46B3750070C6F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5585A171E46B3750070C6F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5585A191E46B3750070C6F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5585A1A1E46B3750070C6F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5585A1D1E46B3750070C6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5585A1F1E46B3750070C6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5585A221E46B3750070C6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5585A241E46B3750070C6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5585A291E46B3750070C6F1 /* PaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5585A2D1E46B3750070C6F1 /* PaySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKTests.m; sourceTree = "<group>"; };
+		D5585A2F1E46B3750070C6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5585A341E46B3750070C6F1 /* PaySDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5585A381E46B3750070C6F1 /* PaySDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKUITests.m; sourceTree = "<group>"; };
+		D5585A3A1E46B3750070C6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5585A471E46B5590070C6F1 /* PaySDKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySDKObject.h; sourceTree = "<group>"; };
+		D5585A481E46B5590070C6F1 /* PaySDKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySDKObject.m; sourceTree = "<group>"; };
+		D5585A4A1E46B5740070C6F1 /* PaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySDK.h; sourceTree = "<group>"; };
+		D5585A4B1E46B5740070C6F1 /* PaySDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySDK.m; sourceTree = "<group>"; };
+		D5585A4D1E46B58F0070C6F1 /* PaySDKBasePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySDKBasePlatform.h; sourceTree = "<group>"; };
+		D5585A4E1E46B58F0070C6F1 /* PaySDKBasePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySDKBasePlatform.m; sourceTree = "<group>"; };
+		D5585A501E46B5AC0070C6F1 /* PaySDKWXPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySDKWXPlatform.h; sourceTree = "<group>"; };
+		D5585A511E46B5AC0070C6F1 /* PaySDKWXPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySDKWXPlatform.m; sourceTree = "<group>"; };
+		D5585A531E46B5BC0070C6F1 /* PaySDKAliPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySDKAliPlatform.h; sourceTree = "<group>"; };
+		D5585A541E46B5BC0070C6F1 /* PaySDKAliPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySDKAliPlatform.m; sourceTree = "<group>"; };
+		D5585AD91E475A2A0070C6F1 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		D5585ADA1E475A2A0070C6F1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D5585ADB1E475A2A0070C6F1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		D5585ADC1E475A2A0070C6F1 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		D5585ADD1E475A2A0070C6F1 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5585A0D1E46B3750070C6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5585ADE1E475A2A0070C6F1 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A261E46B3750070C6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A311E46B3750070C6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5585A071E46B3750070C6F1 = {
+			isa = PBXGroup;
+			children = (
+				D5585A121E46B3750070C6F1 /* PaySDK */,
+				D5585A2C1E46B3750070C6F1 /* PaySDKTests */,
+				D5585A371E46B3750070C6F1 /* PaySDKUITests */,
+				D5585A111E46B3750070C6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5585A111E46B3750070C6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5585A101E46B3750070C6F1 /* PaySDK.app */,
+				D5585A291E46B3750070C6F1 /* PaySDKTests.xctest */,
+				D5585A341E46B3750070C6F1 /* PaySDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5585A121E46B3750070C6F1 /* PaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5585A461E46B3930070C6F1 /* PaySDK */,
+				D5585A161E46B3750070C6F1 /* AppDelegate.h */,
+				D5585A171E46B3750070C6F1 /* AppDelegate.m */,
+				D5585A191E46B3750070C6F1 /* ViewController.h */,
+				D5585A1A1E46B3750070C6F1 /* ViewController.m */,
+				D5585A1C1E46B3750070C6F1 /* Main.storyboard */,
+				D5585A1F1E46B3750070C6F1 /* Assets.xcassets */,
+				D5585A211E46B3750070C6F1 /* LaunchScreen.storyboard */,
+				D5585A241E46B3750070C6F1 /* Info.plist */,
+				D5585A131E46B3750070C6F1 /* Supporting Files */,
+			);
+			path = PaySDK;
+			sourceTree = "<group>";
+		};
+		D5585A131E46B3750070C6F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5585A141E46B3750070C6F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5585A2C1E46B3750070C6F1 /* PaySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5585A2D1E46B3750070C6F1 /* PaySDKTests.m */,
+				D5585A2F1E46B3750070C6F1 /* Info.plist */,
+			);
+			path = PaySDKTests;
+			sourceTree = "<group>";
+		};
+		D5585A371E46B3750070C6F1 /* PaySDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5585A381E46B3750070C6F1 /* PaySDKUITests.m */,
+				D5585A3A1E46B3750070C6F1 /* Info.plist */,
+			);
+			path = PaySDKUITests;
+			sourceTree = "<group>";
+		};
+		D5585A461E46B3930070C6F1 /* PaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5585AD71E475A2A0070C6F1 /* Vendor */,
+				D5585A471E46B5590070C6F1 /* PaySDKObject.h */,
+				D5585A481E46B5590070C6F1 /* PaySDKObject.m */,
+				D5585A4A1E46B5740070C6F1 /* PaySDK.h */,
+				D5585A4B1E46B5740070C6F1 /* PaySDK.m */,
+				D5585A4D1E46B58F0070C6F1 /* PaySDKBasePlatform.h */,
+				D5585A4E1E46B58F0070C6F1 /* PaySDKBasePlatform.m */,
+				D5585A501E46B5AC0070C6F1 /* PaySDKWXPlatform.h */,
+				D5585A511E46B5AC0070C6F1 /* PaySDKWXPlatform.m */,
+				D5585A531E46B5BC0070C6F1 /* PaySDKAliPlatform.h */,
+				D5585A541E46B5BC0070C6F1 /* PaySDKAliPlatform.m */,
+			);
+			path = PaySDK;
+			sourceTree = "<group>";
+		};
+		D5585AD71E475A2A0070C6F1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D5585AD81E475A2A0070C6F1 /* WeChatSDK */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		D5585AD81E475A2A0070C6F1 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5585AD91E475A2A0070C6F1 /* libWeChatSDK.a */,
+				D5585ADA1E475A2A0070C6F1 /* README.txt */,
+				D5585ADB1E475A2A0070C6F1 /* WechatAuthSDK.h */,
+				D5585ADC1E475A2A0070C6F1 /* WXApi.h */,
+				D5585ADD1E475A2A0070C6F1 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5585A0F1E46B3750070C6F1 /* PaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5585A3D1E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDK" */;
+			buildPhases = (
+				D5585A0C1E46B3750070C6F1 /* Sources */,
+				D5585A0D1E46B3750070C6F1 /* Frameworks */,
+				D5585A0E1E46B3750070C6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaySDK;
+			productName = PaySDK;
+			productReference = D5585A101E46B3750070C6F1 /* PaySDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5585A281E46B3750070C6F1 /* PaySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5585A401E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDKTests" */;
+			buildPhases = (
+				D5585A251E46B3750070C6F1 /* Sources */,
+				D5585A261E46B3750070C6F1 /* Frameworks */,
+				D5585A271E46B3750070C6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5585A2B1E46B3750070C6F1 /* PBXTargetDependency */,
+			);
+			name = PaySDKTests;
+			productName = PaySDKTests;
+			productReference = D5585A291E46B3750070C6F1 /* PaySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5585A331E46B3750070C6F1 /* PaySDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5585A431E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */;
+			buildPhases = (
+				D5585A301E46B3750070C6F1 /* Sources */,
+				D5585A311E46B3750070C6F1 /* Frameworks */,
+				D5585A321E46B3750070C6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5585A361E46B3750070C6F1 /* PBXTargetDependency */,
+			);
+			name = PaySDKUITests;
+			productName = PaySDKUITests;
+			productReference = D5585A341E46B3750070C6F1 /* PaySDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5585A081E46B3750070C6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hncoder;
+				TargetAttributes = {
+					D5585A0F1E46B3750070C6F1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5585A281E46B3750070C6F1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5585A0F1E46B3750070C6F1;
+					};
+					D5585A331E46B3750070C6F1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5585A0F1E46B3750070C6F1;
+					};
+				};
+			};
+			buildConfigurationList = D5585A0B1E46B3750070C6F1 /* Build configuration list for PBXProject "PaySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5585A071E46B3750070C6F1;
+			productRefGroup = D5585A111E46B3750070C6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5585A0F1E46B3750070C6F1 /* PaySDK */,
+				D5585A281E46B3750070C6F1 /* PaySDKTests */,
+				D5585A331E46B3750070C6F1 /* PaySDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5585A0E1E46B3750070C6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5585A231E46B3750070C6F1 /* LaunchScreen.storyboard in Resources */,
+				D5585A201E46B3750070C6F1 /* Assets.xcassets in Resources */,
+				D5585ADF1E475A2A0070C6F1 /* README.txt in Resources */,
+				D5585A1E1E46B3750070C6F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A271E46B3750070C6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A321E46B3750070C6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5585A0C1E46B3750070C6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5585A551E46B5BC0070C6F1 /* PaySDKAliPlatform.m in Sources */,
+				D5585A4F1E46B58F0070C6F1 /* PaySDKBasePlatform.m in Sources */,
+				D5585A1B1E46B3750070C6F1 /* ViewController.m in Sources */,
+				D5585A181E46B3750070C6F1 /* AppDelegate.m in Sources */,
+				D5585A521E46B5AC0070C6F1 /* PaySDKWXPlatform.m in Sources */,
+				D5585A151E46B3750070C6F1 /* main.m in Sources */,
+				D5585A491E46B5590070C6F1 /* PaySDKObject.m in Sources */,
+				D5585A4C1E46B5740070C6F1 /* PaySDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A251E46B3750070C6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5585A2E1E46B3750070C6F1 /* PaySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5585A301E46B3750070C6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5585A391E46B3750070C6F1 /* PaySDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5585A2B1E46B3750070C6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5585A0F1E46B3750070C6F1 /* PaySDK */;
+			targetProxy = D5585A2A1E46B3750070C6F1 /* PBXContainerItemProxy */;
+		};
+		D5585A361E46B3750070C6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5585A0F1E46B3750070C6F1 /* PaySDK */;
+			targetProxy = D5585A351E46B3750070C6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5585A1C1E46B3750070C6F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5585A1D1E46B3750070C6F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5585A211E46B3750070C6F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5585A221E46B3750070C6F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5585A3B1E46B3750070C6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5585A3C1E46B3750070C6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5585A3E1E46B3750070C6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaySDK/PaySDK/Vendor/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5585A3F1E46B3750070C6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaySDK/PaySDK/Vendor/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5585A411E46B3750070C6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Debug;
+		};
+		D5585A421E46B3750070C6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Release;
+		};
+		D5585A441E46B3750070C6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Debug;
+		};
+		D5585A451E46B3750070C6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hncoder.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5585A0B1E46B3750070C6F1 /* Build configuration list for PBXProject "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5585A3B1E46B3750070C6F1 /* Debug */,
+				D5585A3C1E46B3750070C6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5585A3D1E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5585A3E1E46B3750070C6F1 /* Debug */,
+				D5585A3F1E46B3750070C6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5585A401E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5585A411E46B3750070C6F1 /* Debug */,
+				D5585A421E46B3750070C6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5585A431E46B3750070C6F1 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5585A441E46B3750070C6F1 /* Debug */,
+				D5585A451E46B3750070C6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5585A081E46B3750070C6F1 /* Project object */;
+}
